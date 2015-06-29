@@ -1,0 +1,32 @@
+{
+    "require": {
+        "doctrine/dbal": "~2.3",
+        "twig/twig": "1.*",
+        "silex/silex": "~1.1",
+        "symfony/config": "~2.3",
+        "symfony/form": "~2.3",
+        "symfony/locale": "~2.3",
+        "symfony/security": "~2.3",
+        "symfony/translation": "~2.3",
+        "symfony/twig-bridge": "~2.3",
+        "symfony/validator": "~2.3",
+        "swiftmailer/swiftmailer": "~5.0",
+	"propel/propel-service-provider": "dev-master",
+	"gonzalo123/qrserviceprovider": "dev-master",
+	"jdesrosiers/silex-cors-provider": "~0.1"
+
+    },
+    "require-dev": {
+        "symfony/browser-kit"   : ">=2.3,<2.4-dev",
+        "symfony/css-selector"  : "~2.3",
+        "symfony/dom-crawler"   : "~2.3",
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-0": {"Sistema": "src/","Condominio":"src/models/condominio","G":"src/" }
+    },
+    "config":{
+        "bin-dir":"bin"
+    }
+
+}

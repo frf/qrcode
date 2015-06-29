@@ -1,0 +1,10 @@
+{% extends 'layout.html.twig' %}
+
+{% block secondaryNavigation %}
+     <div class="container">
+        <ul class="nav nav-tabs">
+            <li {% if 'meusdados' == active %}class="active"{% endif %}><a href="{{ path('me') }}" class="success">Meus Dados</a></li>
+            <!-- <li {% if 'notificacoes' == active %}class="active"{% endif %}><a href="{{ path('admin_morador_notificacoes') }}">Notificações</a></li> -->
+          </ul>
+    </div>
+{% endblock %}
